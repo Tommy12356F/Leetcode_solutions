@@ -7,7 +7,7 @@ class Solution(object):
         :rtype: int
         """
         # i=1
-        # while i*w<=maxWeight and i<=n**2:
+        # while i+1*w<=maxWeight and i<=n**2:
         #     i+=1
         # return i
         maxc=maxWeight//w
