@@ -4,8 +4,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        max=-1
+        # max=-1
+        # for i in nums:
+        #     if -1*i in nums and i>max:
+        #         max=i
+        # return max
+        nums.sort(reverse=True)
         for i in nums:
-            if -1*i in nums and i>max:
-                max=i
-        return max
+            if -1*i in nums:
+                return i
+        return -1
