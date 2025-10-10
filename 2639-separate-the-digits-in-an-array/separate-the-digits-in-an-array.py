@@ -7,8 +7,8 @@ class Solution(object):
         L=[]
         for i in nums:
             
-                for j in range(len(str(i))):
+                for x in range(len(str(i))):
 
-                    L.append(int(str(i)[j]))
+                    L.append(int(str(i)[x]))
         return L
         
