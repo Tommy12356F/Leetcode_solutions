@@ -5,3 +5,4 @@ class Solution(object):
         :rtype: int
         """
         return int(x**0.5)
+        
